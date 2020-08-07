@@ -24,5 +24,26 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Php" />
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/radioReact"
+            android:text="React native"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <RadioButton
+            android:id="@+id/radioFlutter"
+            android:text="Flutter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <RadioButton
+            android:id="@+id/radioHybrid"
+            android:text="Hybrid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </RadioGroup>
+
 
 </LinearLayout>
